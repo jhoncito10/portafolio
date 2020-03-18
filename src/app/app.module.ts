@@ -10,6 +10,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { ProductoComponent } from './pages/producto/producto.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { LoaderComponent } from './shared/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     PortafolioComponent,
     AboutComponent,
-    ProductoComponent
+    ProductoComponent,
+    LoaderComponent
   ],
   imports: [
     BrowserModule,
